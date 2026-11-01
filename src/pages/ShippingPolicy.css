@@ -1,0 +1,159 @@
+
+.shipping-page {
+  background: #f5f8fc;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+.shipping-banner {
+  background: linear-gradient(135deg, #102b50, #2464a5);
+  color: white;
+  text-align: center;
+  padding: 75px 20px;
+}
+
+.shipping-banner svg {
+  margin-bottom: 15px;
+}
+
+.shipping-banner span {
+  display: block;
+  color: #b9d9ff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.shipping-banner h1 {
+  font-size: 38px;
+  margin-bottom: 14px;
+}
+
+.shipping-banner p {
+  color: #e0edfc;
+  font-size: 16px;
+}
+
+.shipping-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 55px auto 0;
+}
+
+.shipping-intro {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 40px;
+}
+
+.shipping-intro h2 {
+  color: #102b50;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.shipping-intro p {
+  color: #64748b;
+  line-height: 1.8;
+}
+
+.shipping-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.shipping-card {
+  background: white;
+  border: 1px solid #e1e9f2;
+  border-radius: 14px;
+  padding: 28px;
+  transition: 0.25s ease;
+}
+
+.shipping-card:hover {
+  transform: translateY(-4px);
+  border-color: #8bb9e9;
+  box-shadow: 0 8px 22px rgba(20, 65, 110, 0.08);
+}
+
+.shipping-icon {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eaf3ff;
+  color: #2464a5;
+  border-radius: 12px;
+  margin-bottom: 18px;
+}
+
+.shipping-card h3 {
+  color: #183653;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.shipping-card p {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.shipping-note {
+  background: white;
+  border: 1px solid #e1e9f2;
+  border-radius: 16px;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 45px;
+}
+
+.shipping-note h2 {
+  color: #102b50;
+  margin-bottom: 12px;
+}
+
+.shipping-note p {
+  color: #64748b;
+  margin-bottom: 22px;
+}
+
+.shipping-contact-btn {
+  display: inline-block;
+  background: #2464a5;
+  color: white;
+  text-decoration: none;
+  padding: 12px 26px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.shipping-contact-btn:hover {
+  background: #102b50;
+}
+
+@media (max-width: 650px) {
+  .shipping-banner {
+    padding: 55px 18px;
+  }
+
+  .shipping-banner h1 {
+    font-size: 30px;
+  }
+
+  .shipping-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .shipping-container {
+    width: 92%;
+    margin-top: 38px;
+  }
+
+  .shipping-intro h2 {
+    font-size: 23px;
+  }
+}

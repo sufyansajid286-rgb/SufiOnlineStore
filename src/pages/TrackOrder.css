@@ -1,0 +1,258 @@
+
+.track-page {
+  background: #f8fafd;
+  min-height: 75vh;
+  padding-bottom: 70px;
+  color: #172943;
+}
+
+.track-banner {
+  background: #edf3fa;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+.track-banner span {
+  color: #28538a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.track-banner h1 {
+  font: 42px Georgia, serif;
+  margin: 13px 0;
+}
+
+.track-banner p {
+  color: #718096;
+}
+
+.track-container {
+  width: min(850px, 90%);
+  margin: 45px auto;
+}
+
+.track-search-card,
+.track-result {
+  background: white;
+  border: 1px solid #e5ebf2;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.track-search-card {
+  text-align: center;
+}
+
+.track-search-card > svg {
+  color: #28538a;
+}
+
+.track-search-card h2 {
+  font: 27px Georgia, serif;
+  margin: 14px 0 8px;
+}
+
+.track-search-card p {
+  color: #718096;
+  font-size: 14px;
+}
+
+.track-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.track-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid #dce4ed;
+  border-radius: 6px;
+  outline: none;
+}
+
+.track-form input:focus {
+  border-color: #28538a;
+}
+
+.track-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 13px 20px;
+  background: #28538a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.track-not-found {
+  background: white;
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.track-not-found h3 {
+  color: #c34e5b;
+}
+
+.track-not-found p {
+  color: #718096;
+}
+
+.track-result {
+  margin-top: 25px;
+}
+
+.track-result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  border-bottom: 1px solid #e8edf3;
+  padding-bottom: 22px;
+}
+
+.track-result-header span {
+  font-size: 11px;
+  color: #7b8ca0;
+  letter-spacing: 2px;
+}
+
+.track-result-header h2 {
+  margin: 7px 0;
+  color: #28538a;
+}
+
+.track-result-header p {
+  color: #8491a0;
+  font-size: 12px;
+}
+
+.track-status-badge {
+  background: #edf3fa;
+  color: #28538a;
+  padding: 9px 13px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.track-progress {
+  margin: 35px 0;
+}
+
+.track-step {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  position: relative;
+  padding-bottom: 30px;
+  color: #a4afbd;
+}
+
+.track-step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 19px;
+  top: 43px;
+  height: 24px;
+  width: 2px;
+  background: #e0e6ed;
+}
+
+.track-step.completed:not(:last-child)::after {
+  background: #28538a;
+}
+
+.track-step-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #dce4ed;
+  display: grid;
+  place-items: center;
+  background: white;
+  flex-shrink: 0;
+}
+
+.track-step-icon svg {
+  width: 19px;
+}
+
+.track-step.completed {
+  color: #28538a;
+}
+
+.track-step.completed .track-step-icon {
+  background: #edf3fa;
+  border-color: #28538a;
+}
+
+.track-step h4 {
+  margin: 0 0 5px;
+  font-size: 15px;
+}
+
+.track-step p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.track-order-details {
+  border-top: 1px solid #e8edf3;
+  padding-top: 22px;
+}
+
+.track-order-details h3 {
+  font: 22px Georgia, serif;
+  margin-bottom: 18px;
+}
+
+.track-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 12px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f2f5;
+}
+
+.track-total {
+  font-weight: 700;
+  color: #28538a;
+}
+
+.track-payment {
+  color: #718096;
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 550px) {
+  .track-banner h1 {
+    font-size: 33px;
+  }
+
+  .track-search-card,
+  .track-result {
+    padding: 22px;
+  }
+
+  .track-form {
+    flex-direction: column;
+  }
+
+  .track-result-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
