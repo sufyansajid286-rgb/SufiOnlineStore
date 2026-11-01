@@ -2,18 +2,18 @@
 
 :root {
   font-family: 'DM Sans', sans-serif;
-  color: #17243b;
+  color: #3b2b12;
   background: #ffffff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 
-  --primary: #244b82;
-  --primary-dark: #18365f;
-  --secondary: #edf3fa;
-  --text: #17243b;
-  --muted: #788395;
-  --border: #e9edf2;
+  --primary: #b8860b;
+  --primary-dark: #6b4f1d;
+  --secondary: #fbf5e8;
+  --text: #3b2b12;
+  --muted: #81745d;
+  --border: #eee4cf;
   --white: #ffffff;
   --heading-font: 'Playfair Display', serif;
 }
@@ -553,11 +553,11 @@ img {
 }
 
 .footer-logo small {
-  color: #a8b5c6;
+  color: #b6a98f;
 }
 
 .footer-brand > p {
-  color: #a8b5c6;
+  color: #b6a98f;
   font-size: 12px;
   line-height: 1.9;
   margin: 20px 0;
@@ -602,7 +602,7 @@ img {
 
 .footer-column > a,
 .footer-column p {
-  color: #a8b5c6;
+  color: #b6a98f;
   font-size: 11px;
   display: flex;
   align-items: center;
@@ -631,7 +631,7 @@ img {
 }
 
 .footer-bottom p {
-  color: #a8b5c6;
+  color: #b6a98f;
   font-size: 10px;
 }
 
@@ -866,7 +866,7 @@ img {
 ================================= */
 
 .shop-banner {
-  background: #edf3fa;
+  background: #fbf5e8;
   padding: 55px 0;
 }
 
@@ -1074,7 +1074,7 @@ img {
 
 .product-image {
   height: 190px;
-  background: #f3f5f8;
+  background: #f7f1e5;
   position: relative;
   overflow: hidden;
 }
@@ -1261,7 +1261,7 @@ img {
   bottom: 25px;
   right: 25px;
   z-index: 200;
-  background: #18365f;
+  background: #6b4f1d;
   color: white;
   padding: 15px 22px;
   border-radius: 7px;

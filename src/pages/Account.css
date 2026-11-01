@@ -3,7 +3,7 @@
   background: #f5f7fb;
   min-height: 75vh;
   padding: 55px 0;
-  color: #172943;
+  color: #3b2b12;
 }
 
 .account-container {
@@ -20,7 +20,7 @@
 }
 
 .account-tag {
-  color: #28538a;
+  color: #b8860b;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -69,7 +69,7 @@
 .account-sidebar,
 .account-details {
   background: #fff;
-  border: 1px solid #e9edf3;
+  border: 1px solid #eee4cf;
   border-radius: 12px;
   padding: 28px;
 }
@@ -82,8 +82,8 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #edf3fa;
-  color: #28538a;
+  background: #fbf5e8;
+  color: #b8860b;
   display: grid;
   place-items: center;
   margin: 0 auto 16px;
@@ -101,7 +101,7 @@
 }
 
 .account-menu {
-  border-top: 1px solid #edf0f4;
+  border-top: 1px solid #f3ead8;
   margin-top: 25px;
   padding-top: 15px;
   display: grid;
@@ -122,8 +122,8 @@
 
 .account-menu a:hover,
 .account-menu .account-menu-active {
-  background: #edf3fa;
-  color: #28538a;
+  background: #fbf5e8;
+  color: #b8860b;
 }
 
 .account-details-header {
@@ -133,7 +133,7 @@
   gap: 15px;
   margin-bottom: 28px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #edf0f4;
+  border-bottom: 1px solid #f3ead8;
 }
 
 .account-details-header h2 {
@@ -146,8 +146,8 @@
 }
 
 .edit-profile-btn {
-  background: #edf3fa;
-  color: #28538a;
+  background: #fbf5e8;
+  color: #b8860b;
 }
 
 .account-form-grid {
@@ -161,14 +161,14 @@
   font-size: 13px;
   font-weight: 600;
   margin-bottom: 9px;
-  color: #53647a;
+  color: #796b50;
 }
 
 .account-input {
   display: flex;
   align-items: center;
   gap: 10px;
-  border: 1px solid #e3e8ef;
+  border: 1px solid #eee5d2;
   border-radius: 7px;
   padding: 0 12px;
   min-height: 47px;
@@ -176,7 +176,7 @@
 }
 
 .account-input:focus-within {
-  border-color: #28538a;
+  border-color: #b8860b;
 }
 
 .account-input input {
@@ -184,12 +184,12 @@
   border: 0;
   outline: none;
   background: transparent;
-  color: #263b56;
+  color: #493817;
   font-size: 14px;
 }
 
 .account-input input:disabled {
-  color: #53647a;
+  color: #796b50;
   cursor: not-allowed;
 }
 
@@ -206,11 +206,11 @@
 
 .cancel-btn {
   background: #f0f2f5;
-  color: #53647a;
+  color: #796b50;
 }
 
 .save-profile-btn {
-  background: #28538a;
+  background: #b8860b;
   color: #fff;
 }
 

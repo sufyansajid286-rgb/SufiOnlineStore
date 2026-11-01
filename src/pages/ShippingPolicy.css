@@ -1,12 +1,12 @@
 
 .shipping-page {
-  background: #f5f8fc;
+  background: #fbf7ed;
   min-height: 100vh;
   padding-bottom: 70px;
 }
 
 .shipping-banner {
-  background: linear-gradient(135deg, #102b50, #2464a5);
+  background: linear-gradient(135deg, #5a4218, #c49a3a);
   color: white;
   text-align: center;
   padding: 75px 20px;
@@ -18,7 +18,7 @@
 
 .shipping-banner span {
   display: block;
-  color: #b9d9ff;
+  color: #e5cf91;
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 700;
@@ -31,7 +31,7 @@
 }
 
 .shipping-banner p {
-  color: #e0edfc;
+  color: #f6ebcd;
   font-size: 16px;
 }
 
@@ -48,13 +48,13 @@
 }
 
 .shipping-intro h2 {
-  color: #102b50;
+  color: #5a4218;
   font-size: 28px;
   margin-bottom: 12px;
 }
 
 .shipping-intro p {
-  color: #64748b;
+  color: #75664a;
   line-height: 1.8;
 }
 
@@ -66,7 +66,7 @@
 
 .shipping-card {
   background: white;
-  border: 1px solid #e1e9f2;
+  border: 1px solid #f2e6c9;
   border-radius: 14px;
   padding: 28px;
   transition: 0.25s ease;
@@ -74,7 +74,7 @@
 
 .shipping-card:hover {
   transform: translateY(-4px);
-  border-color: #8bb9e9;
+  border-color: #d6b96b;
   box-shadow: 0 8px 22px rgba(20, 65, 110, 0.08);
 }
 
@@ -84,8 +84,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eaf3ff;
-  color: #2464a5;
+  background: #fbf3df;
+  color: #c49a3a;
   border-radius: 12px;
   margin-bottom: 18px;
 }
@@ -97,14 +97,14 @@
 }
 
 .shipping-card p {
-  color: #64748b;
+  color: #75664a;
   font-size: 14px;
   line-height: 1.8;
 }
 
 .shipping-note {
   background: white;
-  border: 1px solid #e1e9f2;
+  border: 1px solid #f2e6c9;
   border-radius: 16px;
   text-align: center;
   padding: 40px 20px;
@@ -112,18 +112,18 @@
 }
 
 .shipping-note h2 {
-  color: #102b50;
+  color: #5a4218;
   margin-bottom: 12px;
 }
 
 .shipping-note p {
-  color: #64748b;
+  color: #75664a;
   margin-bottom: 22px;
 }
 
 .shipping-contact-btn {
   display: inline-block;
-  background: #2464a5;
+  background: #c49a3a;
   color: white;
   text-decoration: none;
   padding: 12px 26px;
@@ -132,7 +132,7 @@
 }
 
 .shipping-contact-btn:hover {
-  background: #102b50;
+  background: #5a4218;
 }
 
 @media (max-width: 650px) {

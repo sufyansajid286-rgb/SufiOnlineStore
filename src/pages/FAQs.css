@@ -1,12 +1,12 @@
 
 .faqs-page {
-  background: #f5f8fc;
+  background: #fbf7ed;
   min-height: 100vh;
   padding-bottom: 70px;
 }
 
 .faqs-banner {
-  background: linear-gradient(135deg, #102b50, #2464a5);
+  background: linear-gradient(135deg, #5a4218, #c49a3a);
   color: white;
   text-align: center;
   padding: 75px 20px;
@@ -21,7 +21,7 @@
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 700;
-  color: #b9d9ff;
+  color: #e5cf91;
   margin-bottom: 12px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .faqs-banner p {
-  color: #e0edfc;
+  color: #f6ebcd;
   font-size: 16px;
 }
 
@@ -47,13 +47,13 @@
 }
 
 .faqs-intro h2 {
-  color: #102b50;
+  color: #5a4218;
   font-size: 28px;
   margin-bottom: 10px;
 }
 
 .faqs-intro p {
-  color: #64748b;
+  color: #75664a;
 }
 
 .faq-category {
@@ -61,7 +61,7 @@
 }
 
 .faq-category h3 {
-  color: #2464a5;
+  color: #c49a3a;
   font-size: 21px;
   margin-bottom: 15px;
 }
@@ -74,7 +74,7 @@
 
 .faq-item {
   background: white;
-  border: 1px solid #e1e9f2;
+  border: 1px solid #f2e6c9;
   border-radius: 12px;
   overflow: hidden;
   transition: 0.25s ease;
@@ -82,7 +82,7 @@
 
 .faq-item:hover,
 .faq-open {
-  border-color: #8bb9e9;
+  border-color: #d6b96b;
   box-shadow: 0 5px 18px rgba(20, 65, 110, 0.07);
 }
 
@@ -104,7 +104,7 @@
 
 .faq-question svg {
   flex-shrink: 0;
-  color: #2464a5;
+  color: #c49a3a;
   transition: transform 0.25s ease;
 }
 
@@ -117,14 +117,14 @@
 }
 
 .faq-answer p {
-  color: #64748b;
+  color: #75664a;
   line-height: 1.8;
   font-size: 14px;
 }
 
 .faqs-contact {
   background: white;
-  border: 1px solid #e1e9f2;
+  border: 1px solid #f2e6c9;
   border-radius: 16px;
   text-align: center;
   padding: 38px 20px;
@@ -132,18 +132,18 @@
 }
 
 .faqs-contact h2 {
-  color: #102b50;
+  color: #5a4218;
   margin-bottom: 12px;
 }
 
 .faqs-contact p {
-  color: #64748b;
+  color: #75664a;
   margin-bottom: 22px;
 }
 
 .faqs-contact-btn {
   display: inline-block;
-  background: #2464a5;
+  background: #c49a3a;
   color: white;
   text-decoration: none;
   padding: 12px 26px;
@@ -153,7 +153,7 @@
 }
 
 .faqs-contact-btn:hover {
-  background: #102b50;
+  background: #5a4218;
 }
 
 @media (max-width: 600px) {

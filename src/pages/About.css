@@ -1,11 +1,11 @@
 
 .about-page {
-  color: #172943;
+  color: #3b2b12;
   background: #fff;
 }
 
 .about-hero {
-  background: #edf3fa;
+  background: #fbf5e8;
   text-align: center;
   padding: 85px 20px;
 }
@@ -13,7 +13,7 @@
 .about-hero > span,
 .about-content > span,
 .about-section-heading > span {
-  color: #28538a;
+  color: #b8860b;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -25,7 +25,7 @@
 }
 
 .about-hero p {
-  color: #68788c;
+  color: #81745d;
   max-width: 550px;
   margin: 0 auto 28px;
   line-height: 1.7;
@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: center;
   padding: 13px 24px;
-  background: #28538a;
+  background: #b8860b;
   color: white;
   border-radius: 5px;
   text-decoration: none;
@@ -45,7 +45,7 @@
 }
 
 .about-btn:hover {
-  background: #172943;
+  background: #3b2b12;
 }
 
 .about-story {
@@ -72,7 +72,7 @@
 }
 
 .about-content p {
-  color: #718096;
+  color: #81745d;
   line-height: 1.8;
   font-size: 15px;
 }
@@ -80,13 +80,13 @@
 .about-text-link {
   display: inline-block;
   margin-top: 12px;
-  color: #28538a;
+  color: #b8860b;
   font-weight: 700;
   text-decoration: none;
 }
 
 .about-values {
-  background: #f8fafd;
+  background: #faf6eb;
   padding: 75px 5%;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .about-section-heading p {
-  color: #718096;
+  color: #81745d;
 }
 
 .about-values-grid {
@@ -110,7 +110,7 @@
 .about-value-card {
   background: white;
   padding: 30px 22px;
-  border: 1px solid #e8edf3;
+  border: 1px solid #f0e6d1;
   border-radius: 9px;
   text-align: center;
   transition: .25s;
@@ -118,14 +118,14 @@
 
 .about-value-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px #17294312;
+  box-shadow: 0 10px 25px #3b2b1212;
 }
 
 .about-value-card svg,
 .about-stats svg {
   width: 32px;
   height: 32px;
-  color: #28538a;
+  color: #b8860b;
 }
 
 .about-value-card h3 {
@@ -134,7 +134,7 @@
 }
 
 .about-value-card p {
-  color: #788596;
+  color: #81745d;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -153,12 +153,12 @@
 }
 
 .about-stats p {
-  color: #788596;
+  color: #81745d;
   font-size: 14px;
 }
 
 .about-cta {
-  background: #172943;
+  background: #3b2b12;
   color: white;
   text-align: center;
   padding: 65px 20px;

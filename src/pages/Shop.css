@@ -1,5 +1,5 @@
 .shop-page {
-  color: #172943;
+  color: #3b2b12;
   background: #fff;
   font-family: inherit;
 }
@@ -24,12 +24,12 @@
 }
 
 .shop-banner {
-  background: #edf3fa;
+  background: #fbf5e8;
   padding: 65px 0;
 }
 
 .shop-banner .eyebrow {
-  color: #28538a;
+  color: #b8860b;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -39,11 +39,11 @@
   font-family: Georgia, serif;
   font-size: 44px;
   margin: 14px 0;
-  color: #172943;
+  color: #3b2b12;
 }
 
 .shop-banner p {
-  color: #718096;
+  color: #81745d;
   font-size: 14px;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .breadcrumb a {
-  color: #28538a;
+  color: #b8860b;
 }
 
 /* Sidebar */
@@ -80,7 +80,7 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
-  border-bottom: 1px solid #e9edf2;
+  border-bottom: 1px solid #eee4cf;
 }
 
 .filter-heading h3 {
@@ -93,14 +93,14 @@
 .filter-heading button {
   border: 0;
   background: none;
-  color: #28538a;
+  color: #b8860b;
   font-size: 12px;
   font-weight: 700;
 }
 
 .filter-group {
   padding: 21px 0;
-  border-bottom: 1px solid #e9edf2;
+  border-bottom: 1px solid #eee4cf;
 }
 
 .filter-group:last-child {
@@ -123,14 +123,14 @@
 }
 
 .filter-option input {
-  accent-color: #28538a;
+  accent-color: #b8860b;
   width: 14px;
   height: 14px;
 }
 
 .filter-group input[type="range"] {
   width: 100%;
-  accent-color: #28538a;
+  accent-color: #b8860b;
 }
 
 .price-range-label {
@@ -142,7 +142,7 @@
 }
 
 .price-range-label strong {
-  color: #28538a;
+  color: #b8860b;
 }
 
 /* Main content */
@@ -172,7 +172,7 @@
 
 .shop-topbar select {
   padding: 11px 13px;
-  border: 1px solid #e1e6ed;
+  border: 1px solid #efe3c7;
   border-radius: 6px;
   background: white;
   color: #33445b;
@@ -182,14 +182,14 @@
 
 .shop-search {
   height: 48px;
-  border: 1px solid #e1e6ed;
+  border: 1px solid #efe3c7;
   border-radius: 7px;
   display: flex;
   align-items: center;
   gap: 12px;
   padding: 0 15px;
   margin-bottom: 20px;
-  color: #7b899b;
+  color: #81745d;
 }
 
 .shop-search input {
@@ -198,13 +198,13 @@
   border: none;
   outline: none;
   font-size: 12px;
-  color: #172943;
+  color: #3b2b12;
 }
 
 .shop-search button {
   background: none;
   border: none;
-  color: #7b899b;
+  color: #81745d;
 }
 
 .active-filters {
@@ -215,8 +215,8 @@
 }
 
 .active-filters span {
-  background: #edf3fa;
-  color: #28538a;
+  background: #fbf5e8;
+  color: #b8860b;
   border-radius: 20px;
   padding: 7px 12px;
   font-size: 10px;
@@ -232,7 +232,7 @@
 
 .shop-product-card {
   min-width: 0;
-  border: 1px solid #e6eaf0;
+  border: 1px solid #eee5d2;
   border-radius: 9px;
   overflow: hidden;
   background: #fff;
@@ -248,7 +248,7 @@
   height: 220px;
   position: relative;
   overflow: hidden;
-  background: #f3f5f8;
+  background: #f7f1e5;
 }
 
 .shop-product-card .product-image img {
@@ -275,7 +275,7 @@
 
 .product-badge {
   left: 10px;
-  background: #28538a;
+  background: #b8860b;
   color: white;
 }
 
@@ -309,7 +309,7 @@
 }
 
 .product-category {
-  color: #8793a4;
+  color: #92856c;
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -344,7 +344,7 @@
 }
 
 .product-pricing strong {
-  color: #28538a;
+  color: #b8860b;
   font-size: 14px;
 }
 
@@ -362,14 +362,14 @@
   gap: 8px;
   border: 0;
   border-radius: 5px;
-  background: #28538a;
+  background: #b8860b;
   color: white;
   font-size: 11px;
   font-weight: 700;
 }
 
 .shop-product-card .add-cart-btn:hover {
-  background: #18365f;
+  background: #6b4f1d;
 }
 
 /* Empty state */
@@ -386,7 +386,7 @@
 }
 
 .no-products h3 {
-  color: #172943;
+  color: #3b2b12;
 }
 
 .no-products p {
@@ -395,7 +395,7 @@
 
 .shop-page .primary-btn {
   padding: 12px 20px;
-  background: #28538a;
+  background: #b8860b;
   color: white;
   border: 0;
   border-radius: 5px;
@@ -416,7 +416,7 @@
   height: 37px;
   padding: 0 10px;
   background: white;
-  border: 1px solid #e1e6ed;
+  border: 1px solid #efe3c7;
   border-radius: 5px;
   font-size: 11px;
   color: #263b59;
@@ -428,9 +428,9 @@
 }
 
 .shop-pagination button.page-active {
-  background: #28538a;
+  background: #b8860b;
   color: white;
-  border-color: #28538a;
+  border-color: #b8860b;
 }
 
 .shop-toast {
@@ -442,7 +442,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  background: #18365f;
+  background: #6b4f1d;
   color: white;
   border-radius: 7px;
   font-size: 12px;

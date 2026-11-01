@@ -14,7 +14,7 @@
   max-width: 440px;
   padding: 38px;
   border-radius: 12px;
-  box-shadow: 0 10px 35px #17294312;
+  box-shadow: 0 10px 35px #3b2b1212;
   box-sizing: border-box;
 }
 
@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color: #28538a;
+  color: #b8860b;
   text-decoration: none;
   font-size: 19px;
   font-weight: 700;
@@ -32,7 +32,7 @@
 
 .auth-card h1 {
   text-align: center;
-  color: #172943;
+  color: #3b2b12;
   font: 31px Georgia, serif;
   margin: 0 0 10px;
 }
@@ -46,7 +46,7 @@
 
 .auth-card form label {
   display: block;
-  color: #172943;
+  color: #3b2b12;
   font-size: 13px;
   font-weight: 600;
   margin: 17px 0 8px;
@@ -56,13 +56,13 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  border: 1px solid #dce4ed;
+  border: 1px solid #eadbb7;
   border-radius: 6px;
   padding: 0 12px;
 }
 
 .auth-input:focus-within {
-  border-color: #28538a;
+  border-color: #b8860b;
 }
 
 .auth-input > svg {
@@ -78,7 +78,7 @@
   outline: none;
   padding: 13px 0;
   font: inherit;
-  color: #172943;
+  color: #3b2b12;
   background: transparent;
 }
 
@@ -100,7 +100,7 @@
   padding: 14px;
   border: none;
   border-radius: 6px;
-  background: #28538a;
+  background: #b8860b;
   color: white;
   font-weight: 700;
   cursor: pointer;
@@ -108,7 +108,7 @@
 }
 
 .auth-submit:hover {
-  background: #172943;
+  background: #3b2b12;
 }
 
 .auth-switch {
@@ -119,7 +119,7 @@
 }
 
 .auth-switch a {
-  color: #28538a;
+  color: #b8860b;
   font-weight: 700;
   text-decoration: none;
 }
